@@ -1,0 +1,15 @@
+[project]
+name = "uzma-lab"
+version = "0.1.0"
+description = "MRI-adapted ventriculomegaly feature extraction pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "opencv-python",
+    "SimpleITK",
+    "scikit-image",
+    "matplotlib",
+    "openpyxl",
+    "jupyter",
+]

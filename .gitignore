@@ -1,0 +1,31 @@
+# Data (large MRI files, tarballs, spreadsheets)
+data/
+
+# Output (regenerable)
+output/
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Nested git repos (Ventriculomegaly-Feature-Computation has its own)
+Ventriculomegaly-Feature-Computation/.git/
+
+# uv lock (large, regenerable)
+uv.lock

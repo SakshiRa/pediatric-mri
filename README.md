@@ -102,6 +102,28 @@ All features reference the **Anterior Commissure (AC)** and/or **Posterior Commi
 
 All managed via `uv sync` -- see `pyproject.toml`.
 
-## Reference
+## Citation
 
-Samadani U, et al. *Quantification of ventriculomegaly in pediatric hydrocephalus.* Journal of Neurosurgery. 2024;141(3):822-833.
+If you use this pipeline, please cite both this repository and the original paper:
+
+```bibtex
+@software{rathi2024mri_ventriculomegaly,
+  author    = {Rathi, Sakshi and Samadani, Uzma},
+  title     = {MRI-Adapted Ventriculomegaly Feature Extraction Pipeline},
+  url       = {https://github.com/SakshiRa/pediatric-mri},
+  year      = {2024}
+}
+
+@article{kadabasridhar2024ventriculomegaly,
+  author    = {Kadaba Sridhar, Sharada and Kuang, Rui and Dysterheft Robb, Jen and Samadani, Uzma},
+  title     = {A ventriculomegaly feature computational pipeline to improve the screening of normal pressure hydrocephalus on {CT}},
+  journal   = {Journal of Neurosurgery},
+  year      = {2024},
+  volume    = {141},
+  number    = {3},
+  pages     = {822--832},
+  doi       = {10.3171/2023.12.JNS231780}
+}
+```
+
+Kadaba Sridhar S, Kuang R, Dysterheft Robb J, Samadani U. *A ventriculomegaly feature computational pipeline to improve the screening of normal pressure hydrocephalus on CT.* Journal of Neurosurgery. 2024;141(3):822-832. doi:[10.3171/2023.12.JNS231780](https://doi.org/10.3171/2023.12.JNS231780)

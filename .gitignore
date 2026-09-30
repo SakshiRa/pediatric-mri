@@ -24,8 +24,11 @@ __pycache__/
 # OS
 .DS_Store
 
-# Nested git repos (Ventriculomegaly-Feature-Computation has its own)
-Ventriculomegaly-Feature-Computation/.git/
+# Original CT source (reference only, not part of this repo)
+Ventriculomegaly-Feature-Computation/
+
+# Scratch/verification notebooks
+verify_acpc.ipynb
 
 # uv lock (large, regenerable)
 uv.lock

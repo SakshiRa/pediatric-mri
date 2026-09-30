@@ -12,4 +12,5 @@ dependencies = [
     "matplotlib",
     "openpyxl",
     "jupyter",
+    "statsmodels>=0.15.0",
 ]

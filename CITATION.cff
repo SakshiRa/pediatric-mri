@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MRI-Adapted Ventriculomegaly Feature Extraction Pipeline"
+type: software
+authors:
+  - family-names: Rathi
+    given-names: Sakshi
+  - family-names: Samadani
+    given-names: Uzma
+license: MIT
+url: "https://github.com/SakshiRa/pediatric-mri"
+references:
+  - type: article
+    authors:
+      - family-names: Samadani
+        given-names: Uzma
+    title: "Quantification of ventriculomegaly in pediatric hydrocephalus"
+    journal: "Journal of Neurosurgery"
+    year: 2024
+    volume: 141
+    issue: 3
+    start: 822
+    end: 833
+    doi: "10.3171/2024.2.JNS232615"
